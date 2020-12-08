@@ -1,7 +1,7 @@
 body, html{
     height: 100%;
     background-color: rgb(255, 230, 0);
-    background-image: url(..//tribute/image/bg.jpg);
+    background-image: url(./images/bg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
