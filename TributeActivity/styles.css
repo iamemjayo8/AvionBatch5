@@ -127,6 +127,9 @@ a{
     top: 0px;
     text-transform: uppercase;
 }
+#side-img{
+    margin-top: 100px;
+}
 li{
     line-height: 2em;
 }
@@ -167,4 +170,9 @@ li{
 .stats-data td, tr{
     text-align: center;
     color: rgb(245, 229, 83);
+}
+@media only screen and (max-width:620px){
+    #header, #main, #tribute-info, #stats, .infobox{
+        width: 100%;
+    }
 }
