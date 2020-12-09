@@ -13,6 +13,9 @@ body, html{
     left: 0px;
     top: 0px;
 }
+#header div{
+    font-size: 2vw;
+}
 #r{
     font-size: 40px; 
 }
@@ -23,6 +26,9 @@ body, html{
     width: 40%;
     display: flex;
     justify-content: space-between
+}
+#head-nav a{
+    font-size: 1vw;
 }
 #main-info{
     height: 996px;
