@@ -30,6 +30,9 @@
     height: 996px;
     width: 100%;
     margin-top: 80px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
     display: flex;
     justify-content: space-around;
     background-color: rgb(140, 55, 219);
