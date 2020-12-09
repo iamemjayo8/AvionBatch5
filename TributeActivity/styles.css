@@ -167,6 +167,7 @@ li{
 .stats-data{
     table-layout: fixed;
     width: 100%;
+    font-size: 1vw;
 }
 .stats-data td, tr{
     text-align: center;

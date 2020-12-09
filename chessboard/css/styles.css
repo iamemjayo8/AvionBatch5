@@ -24,14 +24,12 @@ a{
 #main{
     margin-top: 100px;
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 .chessboard {
     width: 730px;
-    height: 730px;
     margin: 20px;
     border: 25px solid #333;
     align-self: center;
