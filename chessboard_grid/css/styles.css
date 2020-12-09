@@ -21,9 +21,9 @@
     }
 }
 :root{
-    --chess-bg-color: gray;
+    --chess-bg-color: silver;
     --p2-color: black;
-    --p1-color: gold;
+    --p1-color: blue;
 }
 #grid-container{
     display: grid;
@@ -32,7 +32,6 @@
     grid-template-rows: repeat(8, [row] 10vw);
     width: 80vw;
     border: 2px solid black;
-    box-shadow: 5px 10px gray;
     justify-content: center;
     align-content: center;
     margin: 0 auto;
@@ -42,6 +41,7 @@
     font-size: 5vw;
     padding: 1vw;
     text-align: center;
+    border: 1px solid black;
 }
 .p1{
     color: var(--p1-color);
