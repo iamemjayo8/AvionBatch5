@@ -25,34 +25,34 @@ body, html{
     justify-content: space-between
 }
 #main-info{
-    height: 960px;
+    height: 996px;
     width: 100%;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    background-image: url(./images/bg.jpg);
+    background-color: rgb(140, 55, 219);;
+    /*background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;*/
     background-size: 100%;
 }
 #img-div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
-    border: 2px solid yellow;
+    width: 30%;
     margin-left: 160px;
     margin-top: 120px;
 }
 #right-info{    
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 70%;
     margin-left: 160px;
     margin-top: 120px;
     margin-right: 20px;
 }
 img{
-    height: 300px;
-    width: 250px;
+    width: 100%;
 }
 #img-caption{
     text-align: center;
@@ -70,7 +70,7 @@ img{
     line-height: 1.5em;
 }
 .infobox caption{
-    font-size: 125%;
+    font-size: 1vw;
     font-weight: bold;
     padding: 0.2em;
     text-align: center;
@@ -86,6 +86,7 @@ img{
 .infobox td, .infobox th{
     vertical-align: top;
     text-align: center;
+    width: 100%;
 }
 
 th{
@@ -97,7 +98,7 @@ table{
 p, .info{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:rgb(255, 230, 0);
-    font-size: 1.5em;
+    font-size: 1.5vw;
 }
 h2, h3, li{
     color:rgb(255, 230, 0);
