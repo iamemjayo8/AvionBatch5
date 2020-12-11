@@ -163,6 +163,9 @@ a{
     justify-content: space-evenly;
     height: 996px;
 }
+#up{
+    margin-top: 10%;
+}
 #up h2{
     font-size: 2vw;
 }
