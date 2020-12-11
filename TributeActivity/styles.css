@@ -26,38 +26,53 @@
 #head-nav a{
     font-size: 2.5vw;
 }
-#main-info{
-    height: 996px;
+body{
+    width: 100%;
+}
+#main-info{    
     width: 100%;
     margin-top: 80px;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-start;
     background-color: rgb(140, 55, 219);
     align-items: center;
+    border: 2px solid yellow;
     /*background-image: url(./images/bg.jpg);
     background-repeat: no-repeat;*/
 }
 #img-div{
+    float: left;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    margin-left: 160px;
+    width: 50;
+    margin-left: 10px;
     margin-top: 120px;
+    border: 2px solid yellow;
 }
-#right-info{   
+#img-div img{
+    width: 100%;
+}
+#right-info{  
+    float: left; 
     display: flex;
     align-items: center;
-    width: 1020px;
-    margin-left: 160px;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
     margin-top: 120px;
     margin-right: 20px;
 }
 #right-info p{
     text-align: justify;
+}
+#right-info .info{
+    font-size: 3vw;
+}
+#right-info .info-qoute{
+    font-size: 3.5vw;
 }
 img{
     width: 100%;
@@ -120,7 +135,7 @@ a{
     text-decoration: none;
 }
 #tribute-info{
-    height: 960px;
+    height: 100%;
     width: 100%;
     margin-top: 80px;
     display: flex;
@@ -141,21 +156,52 @@ a{
     top: 0px;
     text-transform: uppercase;
 }
-#side-img{
+#career-sec{
     margin-top: 100px;
-    width: 400px;
-    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 996px;
+}
+#up h2{
+    font-size: 2vw;
+}
+#up h3{
+    font-size: 1.5vw;
+}
+#down{
+    display: flex;
+    justify-content: space-evenly;
+    height: 996px;
+    border: 2.5px solid rgb(255, 230, 0);    
+}
+#info-text{
+    width: 100%;
+    text-align: justify;
+    margin-right: 10px;
+}
+#info-text p{
+    font-size: 1vw;
+}
+#info-text div{
+    text-align: center;
+}
+#info-text ul{
+    list-style: none;
+    text-decoration: underline;
+}
+#side-img{
+    width: 30%;
+}
+#side-img img{
+    width: 100%;
+}
+.infobox #caption2{
+    text-align: center;
 }
 li{
     line-height: 2em;
-}
-#career-sec{
-    display: flex;
-    justify-content: space-between;
-}
-#info-text{
-    width: 1020px;
-    text-align: justify;
+    font-size: 1vw;
 }
 #stats{
     height: 960px;
@@ -189,7 +235,10 @@ li{
     color: rgb(245, 229, 83);
 }
 @media only screen and (max-width:620px){
-    #header, #main, #tribute-info, #stats, .infobox{
+    #header, #main, #main-info, #tribute-info, #stats, .infobox{
         width: 100%;
     }
+}
+*{
+    box-sizing: border-box;
 }
