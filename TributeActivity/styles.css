@@ -195,7 +195,7 @@ a{
 #side-img{
     width: 30%;
 }
-#side-img img{
+#side-img .infobox{
     width: 100%;
 }
 .infobox #caption2{
